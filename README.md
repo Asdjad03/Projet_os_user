@@ -83,7 +83,7 @@ make clean
   
   ./client/sh13 <server_ip> <server_port> <client_ip> <client_port> <nom_du_joueur>
   
-  ex: ./client/sh13 127.0.0.1 10175 127.0.0.1 20002 Adi
+  ex: ./client/sh13 127.0.0.1 10075 127.0.0.1 20002 Adi
 
 Notes:  
   - Chaque client doit avoir un port et un nom différents.
@@ -110,7 +110,9 @@ Détails:
   - Les clients sont lancés avec les noms: Balou, Baguera, Tarzan , Jasmine
   - Chaque client utilise un port unique: 20002 20003 20004 2005
   - Ils se connectent automatiquement au serveur local sur 127.0.0.1:10075
-  - Pour changer les noms et els ports il faut modifier le fichier run_client.sh.
+  - Pour changer les noms et els ports il faut modifier le fichier run_client.sh
+
+
 
 
 
