@@ -73,7 +73,7 @@ make clean
   
   ./server/server <port>
   
-  ex: ./server/server 10175
+  ex: ./server/server 10075
   
   sinon si on est dans le dossier du serveur déjà : ./server <port>
 
@@ -108,7 +108,7 @@ Un script est fourni pour lancer rapidement 4 clients en local avec des ports di
 
 Détails:
   - Les clients sont lancés avec les noms: Balou, Baguera, Tarzan , Jasmine
-  - Chaque client utilise un port unique: 20002 20003 20004 2005
+  - Chaque client utilise un port unique: 20002 20003 20004 20005
   - Ils se connectent automatiquement au serveur local sur 127.0.0.1:10075
   - Pour changer les noms et els ports il faut modifier le fichier run_client.sh
 
